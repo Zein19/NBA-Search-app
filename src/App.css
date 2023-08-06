@@ -1,38 +1,37 @@
 .App {
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Courier New', Courier, monospace;
+  background-image: url(../public/bball-bg.jpg);
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input{
+  padding: 1em;
+  border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+form{
+  padding: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+.player-card{
+  background-color:burlywood;
+  border: solid black 1px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: left;
+  padding: 1em;
+  border-radius: 10px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span{
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
 }
